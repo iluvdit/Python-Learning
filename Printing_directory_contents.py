@@ -15,3 +15,18 @@ def print_directory_contents(directory):
 # Example usage:
 directory_path = "/home/kali/Documents/"  
 print_directory_contents(directory_path)
+
+
+
+# Another Small program for printing directory contents/items
+
+'''
+import os
+
+directory_path = '/home/iluvdit/Downloads'
+
+contents = os.listdir(directory_path)
+
+for item in contents:
+    print (item)
+'''
